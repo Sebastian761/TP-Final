@@ -116,12 +116,17 @@ html,body{
 
         .info__row{
             text-align: center;
+            flex-wrap: wrap;
             height: 50em;
             padding: 3em 12em;
         }
 
         .info__row img{
             width: 8em;
+        }
+
+        .col-4{
+            min-width: 260px;
         }
 
         .col-4 h2{
